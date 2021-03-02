@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.app::after {
+    display: block;
+    content: '';
+}
+
+
+.calculator {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #3c80e7;
+    padding: 8px 0;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+}
+header h3 {
+    color: #f3f3f3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    background: rgb(245, 241, 241);
+    padding: 35px 15px 8px;
+}
+
+.input-group {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input-group p {
+    color: #222;
+    margin-bottom: 3px;
+}
+#cost {
+     margin-left: 5px;
+     margin-top: 3px;
+}
+
+input {
+    padding : 4px;
+    background:  rgb(245, 241, 241);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 220px;
+}
+
+#service {
+    width: 220px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#people {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+ 
+#tip-btn {
+    background-color: #ff3333;
+    color: white;
+    border-radius: 4px;
+    margin-left: 105px;
+    width: 78px;
+    height: 28px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+#tip-btn:hover {
+    background-color: #ff0000;
+}
+
+.tip-wrap {
+    text-align: center;
+}
+.tip-wrap h3 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
